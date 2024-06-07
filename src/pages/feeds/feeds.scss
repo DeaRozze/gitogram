@@ -1,0 +1,18 @@
+.stories {
+  display: flex;
+  justify-content: space-between;
+}
+
+.icon {
+  width: 30px;
+  height: 30px;
+  margin-right: 24px;
+
+  &:last-child {
+  margin-right: 0;
+}
+}
+
+.headline__list {
+display: flex;
+}

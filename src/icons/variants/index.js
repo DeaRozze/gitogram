@@ -1,0 +1,5 @@
+export { default as home } from './home.vue'
+export { default as door } from './door.vue'
+export { default as boy } from './boy.vue'
+export { default as andrew } from './andrew.vue'
+export { default as girl } from './girl.vue'
