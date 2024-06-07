@@ -123,9 +123,6 @@ export default {
     toggle (isOpened) {
       this.shown = isOpened
     }
-  },
-  handlePress () {
-    console.log('Handled')
   }
 }
 </script>
