@@ -1,1 +1,1 @@
-export { default as port } from './post.vue'
+export { default as post } from './post.vue'

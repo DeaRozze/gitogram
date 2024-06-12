@@ -1,0 +1,15 @@
+.c-button {
+  border: 1px solid transparent;
+  width: 270px;
+  height: 44px;
+  padding: 12px 100px;
+  border-radius: 5px;
+  background:green;
+
+  &:hover {
+    background:grey;
+  }
+}
+
+
+

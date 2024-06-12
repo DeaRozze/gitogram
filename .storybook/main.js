@@ -7,17 +7,9 @@ const config = {
     "@storybook/addon-essentials",
     "@chromatic-com/storybook",
     "@storybook/addon-interactions",
+    "@storybook/preset-scss",
   ],
-  webpackFinal : config => {
-    config.module.rules.push({
-      test: /.scss$/i
-      use:
-      "style-loader",
-      "css-loader",
-      "sass-loader"
-    })
-    return config;
-  },
+  
   framework: {
     name: "@storybook/vue3-webpack5",
     options: {},

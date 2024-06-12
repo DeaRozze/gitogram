@@ -1,29 +1,17 @@
 import avatar from './avatar.vue'
 
 export default {
-  title: 'avatar',
+  title: 'Avatar',
   components: { avatar }
 }
 
 export const defaultView = () => ({
-  components: {
-    avatar
-  },
+  components: { avatar },
   template: `
-  <avatar />
+  <avatar :avatarUrl="'https://png.pngtree.com/png-clipart/20220430/original/pngtree-cute-cartoon-girl-avatar-social-media-png-image_7614123.png'" :nickname="'React.reposit'" />  
   `
 })
 
 defaultView.story = {
-  name: 'Стандартный вид'
-}
-
-export const borderedView = () => ({
-  template: `
-  <h1 style="border: 1px solid black">Hello World</h1>
-  `
-})
-
-borderedView.story = {
   name: 'Стандартный вид'
 }

@@ -2,7 +2,7 @@
   <button :class="['button', {'active': isOpened}]" @click="toggle">
     <span class="text">{{ isOpened ? "Hide" : "Show" }} issues</span>
     <span class="icon">
-      <icon name="triangle" />
+      <icon name="string" />
     </span>
   </button>
 </template>

@@ -1,0 +1,11 @@
+.c-comment {
+  margin-top: 6px;
+    &:last-child {
+      margin-top: 0;
+    }
+  }
+
+  .username {
+    font-weight: bold;
+  }
+  
